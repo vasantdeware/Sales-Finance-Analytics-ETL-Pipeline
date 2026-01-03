@@ -1,0 +1,9 @@
+{
+	"name": "ecommerseadf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4f49a0b9-366b-4579-be59-05cd75469b76",
+		"tenantId": "860d8dd5-e37a-406a-9ad5-f54ccc0789f2"
+	}
+}
