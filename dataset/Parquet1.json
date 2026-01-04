@@ -1,0 +1,20 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azuresqlstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Azuresqlstoragefiles",
+				"fileSystem": "destinationfiles"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
